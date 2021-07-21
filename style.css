@@ -41,7 +41,7 @@ body{
     box-shadow: 0 0 0 1px black;
 }
 
-.box input[type = "submit"]{
+.box input[name="login"]{
     border: 0;
     background: none;
     display: block;
@@ -55,7 +55,7 @@ body{
     transition: 0.25s;
     cursor: pointer;
 }
-.box input[type = "submit"]:hover{
+.box input[name="login"]:hover{
     background: #2ecc71;
     color: white;
 }
